@@ -1,0 +1,128 @@
+a{
+    text-decoration: none;
+    color: black;
+}
+body{
+    padding-right: 0%;
+}
+#logos_principal{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#logos_principal img{
+    width: 60%;
+    height: 75%;
+}
+#logos_footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+div.foto{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#superior{
+    background-image: url("../img/cesta.png");
+    background-size: cover;
+}
+#superior::before{
+    opacity: 0.5;
+}
+.botonPrincipal{
+    width: auto;
+    background-color: grey;
+    border-color: transparent;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.botonMeses{
+    width: 100px;
+    background-color: #E8E8E8;
+    border-color: transparent;
+}
+select, input{
+    border-color: transparent;
+    height: 25px;
+}
+#sienbra{
+    background-color: #F5F5F5;
+}
+#planta{
+    background-size: cover;
+    opacity: 0.5;
+}
+#plato{
+    background-size: cover;
+    opacity: 0.5;
+}
+#banner, #banner2, #banner3{
+    display: none;
+}
+
+div.izquierda{
+    padding-left: 12%;
+}
+div.derecha{
+    padding-left: 3%;
+}
+img.logo_footer{
+    margin-left: 20%;
+}
+footer, .card, #divListado{
+    background-color: rgb(243, 243, 243);
+}
+#elaboracion p{
+    font-weight: bold;
+}
+#infoNutri table{
+    margin: 0;
+    font-size: small;
+}
+#listadoIngredientes p{
+   font-size: small;
+   font-weight: normal;
+}
+span{
+    
+    font-weight: bold;
+    text-decoration: underline;
+    margin: 0;
+}
+
+hr{
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+table tr{
+    border-bottom: 1px solid #a1a1a1;
+}
+@media (max-width: 992px) {
+    #plato{
+       display: none;
+    }
+    #planta{
+        width: 50%;
+        display: none;
+        padding-right: 0%;
+        opacity: 1;
+    }
+    #banner, #banner2, #banner3{
+        display: inline;
+    }
+    #logos_principal img{
+        width: 100%;
+        
+    }
+    div.izquierda, div.derecha{
+        padding-left: 50px;
+    }
+    #cuidados{
+        background-color: #F5F5F5;
+    }
+    #sienbra, #cosecha, #buscador{
+        padding: 50px;
+    }
+}
